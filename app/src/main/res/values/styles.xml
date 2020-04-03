@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@android:color/secondary_text_dark</item>
+        <item name="colorPrimaryDark">@color/album_name_text_color</item>
+        <item name="colorAccent">@color/category_text_color</item>
+        <item name="fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="header_button" parent="AppTheme">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginStart">@dimen/margin_m</item>
+        <item name="android:layout_marginLeft">@dimen/margin_m</item>
+        <item name="android:layout_marginTop">@dimen/margin_xl</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+    </style>
+
+    <style name="category" parent="AppTheme">
+        <item name="android:layout_marginStart">@dimen/margin_m</item>
+        <item name="android:layout_marginLeft">@dimen/margin_m</item>
+        <item name="android:layout_marginTop">@dimen/margin_m</item>
+        <item name="android:textSize">@dimen/category_text_size</item>
+        <item name="android:textColor">@color/category_text_color</item>
+    </style>
+
+    <style name="media_list" parent="AppTheme">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginStart">@dimen/margin_m</item>
+        <item name="android:layout_marginLeft">@dimen/margin_m</item>
+        <item name="android:layout_marginTop">@dimen/margin_m</item>
+    </style>
+
+    <style name="album_info_cover" parent="AppTheme">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:layout_marginStart">@dimen/margin_m</item>
+        <item name="android:layout_marginLeft">@dimen/margin_m</item>
+        <item name="android:layout_marginTop">@dimen/margin_x</item>
+    </style>
+
+    <style name="album_info_album_name" parent="AppTheme">
+        <item name="android:layout_marginStart">@dimen/margin_m</item>
+        <item name="android:layout_marginLeft">@dimen/margin_m</item>
+        <item name="android:layout_marginEnd">@dimen/margin_m</item>
+        <item name="android:layout_marginRight">@dimen/margin_m</item>
+        <item name="android:textColor">@color/header_text_color</item>
+        <item name="android:textSize">@dimen/album_text_size</item>
+    </style>
+
+    <style name="album_info_song_list" parent="AppTheme">
+        <item name="android:layout_marginStart">@dimen/margin_m</item>
+        <item name="android:layout_marginLeft">@dimen/margin_m</item>
+        <item name="android:layout_marginTop">@dimen/margin_x</item>
+        <item name="android:layout_marginEnd">@dimen/margin_m</item>
+        <item name="android:layout_marginRight">@dimen/margin_m</item>
+    </style>
+
+</resources>

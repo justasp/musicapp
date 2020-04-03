@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="header_text">For you</string>
+    <string name="category1_name">Recommended albums</string>
+    <string name="album_picture_text_placeholder">album_picture</string>
+    <string name="best_for_week_category_text">Best for week</string>
+    <string name="podcast_category_text">Podcasts</string>
+    <string name="albums_menu_label">Albums</string>
+    <string name="main_menu_label">Main menu</string>
+</resources>

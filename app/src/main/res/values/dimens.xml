@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_m">16dp</dimen>
+    <dimen name="margin_xl">32dp</dimen>
+    <dimen name="header_text_size">32sp</dimen>
+    <dimen name="category_text_size">24sp</dimen>
+    <dimen name="album_picture_width">150dp</dimen>
+    <dimen name="album_picture_height">150dp</dimen>
+    <dimen name="margin_s">8dp</dimen>
+    <dimen name="margin_xs">4dp</dimen>
+    <dimen name="album_name_text_size">16sp</dimen>
+    <dimen name="artist_name_text_size">12sp</dimen>
+    <dimen name="margin_x">24dp</dimen>
+    <dimen name="album_text_size">24sp</dimen>
+</resources>
